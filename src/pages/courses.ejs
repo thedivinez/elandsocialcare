@@ -1,0 +1,117 @@
+<section
+  class="page-title"
+  style="background-image: url(images/background/3.jpg)"
+>
+  <div class="auto-container">
+    <h2><%= site.courses[0].title %></h2>
+    <ul class="page-breadcrumb">
+      <li><a href="/">home</a></li>
+      <li>
+        <span>Courses</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<div class="sidebar-page-container">
+  <div class="auto-container">
+    <div class="clearfix row">
+      <!--Content Side / Services Detail -->
+      <div class="content-side col-lg-8 col-md-12 col-sm-12">
+        <% site.courses.forEach(function(course, index) { %>
+        <div
+          id="<%= course.id %>"
+          class="services-detail <% index === 0 ? '' : 'hidden' %>"
+        >
+          <div class="inner-box">
+            <div class="image">
+              <img src="<%= course.image %>" alt="<%= course.title %>" />
+            </div>
+            <div class="lower-content">
+              <% course.sections.forEach((section) => { %>
+              <h3><%= section.title %></h3>
+              <% if (Array.isArray(section.description)) { %> <%
+              section.description.forEach((paragraph) => { %>
+              <p><%= paragraph %></p>
+              <% }) %> <% } else { %>
+              <p><%= section.description %></p>
+
+              <% } %> <% if (section.activities) { %> <%
+              section.activities.forEach((activity) => { %>
+              <ul class="list-style-one">
+                <li><%= activity %></li>
+              </ul>
+              <% }) %> <% } %> <% }) %>
+              <div class="service-contact-box">
+                Let our experienced caregivers help your family today. <br />
+                <a href="contact">Contact our team</a> to learn more!
+              </div>
+            </div>
+          </div>
+        </div>
+        <% }) %>
+      </div>
+
+      <!--Sidebar Side-->
+      <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
+        <aside class="padding-left sidebar">
+          <!-- Sidebar Widget / List Widget-->
+          <div class="list-widget sidebar-widget">
+            <!-- Services List -->
+            <ul class="services-list">
+              <% site.courses.forEach(function(course, index) { %>
+              <li
+                class="sidebar-btn <%= index === 0 ? 'active' : '' %>"
+                data-content="<%= course.id %>"
+              >
+                <a> <%= course.title %> </a>
+              </li>
+              <% }) %>
+            </ul>
+          </div>
+
+          <!-- Sidebar Widget / Contact Widget-->
+          <div class="sidebar-widget contact-widget">
+            <div
+              class="widget-content"
+              style="background-image: url(images/resource/contact-2.jpg)"
+            >
+              <h3>Find Care Today</h3>
+              <a href="contact" class="theme-btn contact-btn">contact us</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .sidebar-btn {
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".services-detail").forEach((content, index) => {
+      if (index === 0) return;
+      content.classList.add("hidden");
+    });
+  });
+
+  document.addEventListener("click", (e) => {
+    const clickedElement = e.target.closest(".sidebar-btn");
+    if (!clickedElement.matches("li.sidebar-btn")) return;
+    document.querySelectorAll("li.sidebar-btn").forEach((btn) => {
+      btn.classList.remove("active");
+    });
+    clickedElement.classList.add("active");
+    document
+      .querySelectorAll(".services-detail")
+      .forEach((content) => content.classList.add("hidden"));
+    document
+      .getElementById(clickedElement.getAttribute("data-content"))
+      .classList.remove("hidden");
+  });
+</script>
