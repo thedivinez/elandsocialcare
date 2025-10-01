@@ -8,9 +8,8 @@ export default {
     courses: [
       {
         id: 'qcf-level-3-hsc',
-        image: "images/resource/service-15.jpg",
+        thumbnail: "/images/resource/service-15.jpg",
         title: 'QCF Level 3 ~ 4 in Health & Social Care',
-        thumbnail: "images/resource/service-15.jpg",
         summary: "For senior care workers, team leaders, and supervisors to lead teams and manage complex situations.",
         sections: [
           {
@@ -45,7 +44,7 @@ export default {
         id: 'level-2-food-safety',
         image: 'images/resource/service-17.jpg',
         title: 'Level 2 ~ 4 Food Safety',
-        thumbnail: "images/training/food-thumb-1.jpg",
+        thumbnail: "/images/training/food-thumb-1.jpg",
         summary: "Foundational food hygiene for care staff. Covers safety principles and legal compliance.",
         sections: [
           {
@@ -78,9 +77,8 @@ export default {
       },
       {
         id: 'health-safety',
-        image: 'images/resource/service-6.jpg',
         title: 'Health & Safety',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Overview of health and safety responsibilities and practices specific to care environments.",
         sections: [
           {
@@ -113,9 +111,8 @@ export default {
       },
       {
         id: 'infection-prevention-control',
-        image: 'images/resource/service-7.jpg',
         title: 'Infection Prevention & Control',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Essential knowledge on causes, transmission, and prevention of infections in care settings.",
         sections: [
           {
@@ -148,9 +145,8 @@ export default {
       },
       {
         id: 'safeguarding-children',
-        image: 'images/resource/service-8.jpg',
         title: 'Safeguarding Children & Adults',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Learn to recognise, respond to, and report concerns of child abuse and neglect.",
         sections: [
           {
@@ -183,9 +179,8 @@ export default {
       },
       {
         id: 'moving-handling',
-        image: 'images/resource/service-10.jpg',
         title: 'Moving & Handling',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Practical course for safe moving and handling of people to prevent carer and service user injury.",
         sections: [
           {
@@ -218,9 +213,8 @@ export default {
       },
       {
         id: 'level-3-food-hygiene',
-        image: 'images/resource/service-11.jpg',
         title: 'Level 3 ~ 4  Food and Hygiene',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "For supervisors and managers. In-depth understanding of food hygiene practices and management.",
         sections: [
           {
@@ -253,9 +247,8 @@ export default {
       },
       {
         id: 'level-3-nutrition-health',
-        image: 'images/resource/service-13.jpg',
         title: 'Level 3 Nutrition and Health',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Detailed understanding of nutrition's role in health and well-being for care settings.",
         sections: [
           {
@@ -288,9 +281,8 @@ export default {
       },
       {
         id: 'safe-medication-administration',
-        image: 'images/resource/service-14.jpg',
         title: 'Level 3 Safe Administration of Medication',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "For care workers supporting with medication. Covers legal frameworks and safe practices.",
         sections: [
           {
@@ -323,9 +315,8 @@ export default {
       },
       {
         id: 'mental-capacity-mental-health',
-        image: 'images/resource/service-15.jpg',
         title: 'Mental Capacity Act & Mental Health Awareness',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Covers the Mental Capacity Act legal framework and mental health awareness for carers.",
         sections: [
           {
@@ -358,9 +349,8 @@ export default {
       },
       {
         id: 'dementia-awareness',
-        image: 'images/resource/service-16.jpg',
         title: 'Dementia Awareness',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Raises awareness of dementia and how to provide person-centred care for those affected.",
         sections: [
           {
@@ -393,9 +383,8 @@ export default {
       },
       {
         id: 'speaking-listening-therapy',
-        image: 'images/resource/service-17.jpg',
         title: 'Speaking and Listening Therapy',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "For staff supporting individuals with communication or swallowing difficulties.",
         sections: [
           {
@@ -428,9 +417,8 @@ export default {
       },
       {
         id: 'managing-challenging-behaviours',
-        image: 'images/resource/service-18.jpg',
         title: 'Managing Challenging Behaviours',
-        thumbnail: "images/resource/service-11.jpg",
+        thumbnail: "/images/resource/service-11.jpg",
         summary: "Skills to understand, prevent, and de-escalate challenging behaviour safely and positively.",
         sections: [
           {
