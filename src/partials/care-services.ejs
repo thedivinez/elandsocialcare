@@ -1,0 +1,145 @@
+<style>
+  .card-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform var(--transition-speed),
+      box-shadow var(--transition-speed);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-header {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom: none;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-body {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 15px 0;
+  }
+
+  .service-icon {
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .btn-book {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all var(--transition-speed);
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .btn-book:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .section-title {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .section-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--primary-color);
+  }
+
+  /* Consistent gaps for both X and Y axes */
+  .card-column {
+    padding: var(--card-spacing);
+  }
+
+  /* Enhanced accessibility */
+  .btn-book:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+  }
+
+  /* Improved responsive behavior */
+  @media (max-width: 768px) {
+    .card-column {
+      padding: 10px;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+    }
+  }
+</style>
+
+<div class="container">
+  <!-- Page Title -->
+  <h2 class="section-title">Our Care Services & Pricing</h2>
+  <!-- Pricing Cards Section -->
+  <div class="card-container">
+    <div class="justify-content-center row">
+      <% site.caregiving.forEach(function(service) { %>
+      <div class="col-md-6 col-lg-4 card-column">
+        <div class="card">
+          <div class="card-header">
+            <i class="<%= service.icon %> service-icon"></i>
+            <h4><%= service.title %></h4>
+          </div>
+          <div class="text-center card-body">
+            <p class="card-text"><%= service.description %></p>
+            <div class="price"><%= service.price %></div>
+            <% if (service.note) { %>
+            <small class="text-muted"><%= service.note %></small>
+            <% } %>
+            <button
+              class="btn btn-book"
+              aria-label="Book <%= service.title %> service"
+            >
+              Book Service
+            </button>
+          </div>
+        </div>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+</div>

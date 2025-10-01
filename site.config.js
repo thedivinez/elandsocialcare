@@ -450,5 +450,70 @@ export default {
         ],
       }
     ],
+    caregiving: [
+      {
+        title: "Care Assistants",
+        icon: "fas fa-hands-helping",
+        description: "Personal care assistance with daily activities, medication reminders, and companionship.",
+        price: "£17/hr",
+        note: ""
+      },
+      {
+        title: "Senior Care Assistants",
+        icon: "fas fa-user-nurse",
+        description: "Experienced caregivers providing specialized support for seniors with complex needs.",
+        price: "£19/hr",
+        note: ""
+      },
+      {
+        title: "Support Workers",
+        icon: "fas fa-user-friends",
+        description: "Emotional and practical support for individuals with disabilities or mental health needs.",
+        price: "£17.50/hr",
+        note: ""
+      },
+      {
+        title: "Nurses",
+        icon: "fas fa-stethoscope",
+        description: "Professional nursing care including clinical assessments, wound care, and medication administration.",
+        price: "£31/hr",
+        note: "Day rate: £31/hr | Night rate: £33/hr"
+      },
+      {
+        title: "Weekend Rate",
+        icon: "fas fa-calendar-week",
+        description: "Premium care services available during weekends and bank holidays.",
+        price: "£36/hr",
+        note: ""
+      },
+      {
+        title: "Domestic Cleaners",
+        icon: "fas fa-broom",
+        description: "Thorough cleaning services to maintain a safe and hygienic living environment.",
+        price: "£15.50/hr",
+        note: ""
+      },
+      {
+        title: "Kitchen Assistants",
+        icon: "fas fa-utensils",
+        description: "Meal preparation, kitchen organization, and assistance with dietary requirements.",
+        price: "£17/hr",
+        note: ""
+      },
+      {
+        title: "Personal Assistants",
+        icon: "fas fa-user-tie",
+        description: "One-on-one support with daily tasks, appointments, and personal organization.",
+        price: "£17.50/hr",
+        note: ""
+      },
+      {
+        title: "Chefs",
+        icon: "fas fa-cheese",
+        description: "Professional meal preparation with attention to dietary needs and nutritional requirements.",
+        price: "£22/hr",
+        note: ""
+      }
+    ]
   },
 }
