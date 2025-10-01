@@ -1,6 +1,6 @@
 <section
   class="page-title"
-  style="background-image: url(images/background/3.jpg)"
+  style="background-image: url(/images/background/3.jpg)"
 >
   <div class="auto-container">
     <h2><%= site.courses[0].title %></h2>
@@ -24,9 +24,6 @@
           class="services-detail <% index === 0 ? '' : 'hidden' %>"
         >
           <div class="inner-box">
-            <div class="image">
-              <img src="<%= course.image %>" alt="<%= course.title %>" />
-            </div>
             <div class="lower-content">
               <% course.sections.forEach((section) => { %>
               <h3><%= section.title %></h3>
@@ -74,7 +71,7 @@
           <div class="sidebar-widget contact-widget">
             <div
               class="widget-content"
-              style="background-image: url(images/resource/contact-2.jpg)"
+              style="background-image: url(/images/resource/contact-2.jpg)"
             >
               <h3>Find Care Today</h3>
               <a href="contact" class="theme-btn contact-btn">contact us</a>
