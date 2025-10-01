@@ -9,7 +9,9 @@ export default {
       {
         id: 'qcf-level-3-hsc',
         image: "images/resource/service-15.jpg",
-        title: 'QCF Level 3 in Health & Social Care',
+        title: 'QCF Level 3 ~ 4 in Health & Social Care',
+        thumbnail: "images/resource/service-15.jpg",
+        summary: "For senior care workers, team leaders, and supervisors to lead teams and manage complex situations.",
         sections: [
           {
             title: 'QCF Level 3 in Health & Social Care',
@@ -40,42 +42,11 @@ export default {
         ],
       },
       {
-        id: 'qcf-level-4-hsc',
-        image: 'images/resource/service-11.jpg',
-        title: 'QCF Level 4 in Health & Social Care',
-        sections: [
-          {
-            title: 'QCF Level 4 in Health & Social Care',
-            description: [
-              "Aimed at managers and aspiring managers in health and social care, this Level 4 qualification provides the strategic and operational knowledge needed to run an effective service.",
-              "The course covers leadership, managerial responsibilities, safeguarding at an organizational level, and the implementation of care plans. It is essential for those looking to progress into management and ensure the highest standards of care provision."
-            ]
-          },
-          {
-            title: 'Our Level 4 Qualification Supports Your Leadership Journey',
-            description: "Stepping into a management role can be challenging, but you don't have to navigate it alone. Our Level 4 programme is structured to support your transition from a senior practitioner to an effective leader, providing you with the strategic tools to manage resources, lead your team with confidence, and drive quality across your service.",
-          },
-          {
-            title: 'Management Skills for All Care Contexts',
-            description: "Our curriculum is designed for managers and deputy managers across the entire care spectrum, including residential care, domiciliary care, and supported living. We focus on your specific leadership challenges, providing the skills to manage budgets, lead regulatory compliance, and foster a positive, person-centred culture in your organisation.",
-          },
-          {
-            title: "This management-focused course covers:",
-            activities: [
-              "Leading and managing service provision in health and social care",
-              "Safeguarding and protection of vulnerable individuals at a strategic level",
-              "Managing quality systems and continuous improvement",
-              "Resource management and financial sustainability",
-              "Developing organisational policy and procedures",
-              "Partnership working and collaborative practice"
-            ]
-          }
-        ],
-      },
-      {
         id: 'level-2-food-safety',
         image: 'images/resource/service-17.jpg',
-        title: 'Level 2 Food Safety',
+        title: 'Level 2 ~ 4 Food Safety',
+        thumbnail: "images/training/food-thumb-1.jpg",
+        summary: "Foundational food hygiene for care staff. Covers safety principles and legal compliance.",
         sections: [
           {
             title: 'Level 2 Food Safety',
@@ -106,75 +77,11 @@ export default {
         ],
       },
       {
-        id: 'level-3-food-safety',
-        image: 'images/resource/service-4.jpg',
-        title: 'Level 3 Food Safety',
-        sections: [
-          {
-            title: 'Level 3 Food Safety',
-            description: [
-              "Designed for supervisors, team leaders, and managers, this course provides a deeper understanding of food safety management systems.",
-              "It focuses on the development and implementation of effective food safety procedures, hazard analysis, and monitoring controls within a care environment. This level is crucial for those responsible for overseeing food handling operations and staff training."
-            ]
-          },
-          {
-            title: 'Our Supervisor Training Supports Your Team\'s Safety',
-            description: "As a supervisor, you are the key to maintaining high food safety standards. Our Level 3 course supports you in this role by providing the knowledge to not just follow procedures, but to understand, implement, and monitor them, empowering you to lead your team towards a culture of excellent food hygiene.",
-          },
-          {
-            title: 'For Supervisors in Any Care Catering Environment',
-            description: "This course is tailored for chefs, kitchen managers, and care supervisors responsible for food safety in settings like care homes, day centres, and supported living complexes. We focus on your supervisory role, giving you the tools to train staff, identify hazards proactively, and ensure full legal compliance.",
-          },
-          {
-            title: "This supervisory course develops your skills in:",
-            activities: [
-              "Developing and implementing a food safety management system based on HACCP",
-              "Training and supervising staff in food safety principles",
-              "Conducting risk assessments and monitoring controls",
-              "Managing incidents and implementing corrective actions",
-              "Understanding food safety management and enforcement",
-              "Auditing food safety standards and driving continuous improvement"
-            ]
-          }
-        ],
-      },
-      {
-        id: 'level-4-food-safety',
-        image: 'images/resource/service-5.jpg',
-        title: 'Level 4 Food Safety',
-        sections: [
-          {
-            title: 'Level 4 Food Safety',
-            description: [
-              "This advanced course is aimed at managers, quality assurance personnel, and those with a strategic role in food safety.",
-              "It provides the knowledge to develop, implement, and audit a full food safety management system based on HACCP principles. Completing this qualification ensures you can lead on food safety compliance and culture at a senior level within your care organisation."
-            ]
-          },
-          {
-            title: 'Our Advanced Training Supports Your Strategic Role',
-            description: "At a managerial level, food safety is about more than daily practice—it's about strategy and culture. Our Level 4 course supports your strategic responsibilities by providing the expertise to design, manage, and audit robust food safety systems that protect your organisation and the individuals in your care.",
-          },
-          {
-            title: 'For Managers Shaping Food Safety Culture',
-            description: "This advanced qualification is designed for care home managers, catering managers, and quality assurance leads who have overall responsibility for food safety. We focus on your need to create a proactive food safety culture, manage complex audits, and ensure your organisation not only meets but exceeds regulatory standards.",
-          },
-          {
-            title: "This management-level course focuses on:",
-            activities: [
-              "Designing and implementing a HACCP-based food safety management system",
-              "Leading and managing a food safety culture within the organisation",
-              "Conducting internal and external audits of food safety practices",
-              "Interpreting and applying complex food safety legislation",
-              "Managing food safety incidents and product recalls",
-              "Developing and delivering advanced staff training programmes"
-            ]
-          }
-        ],
-      },
-      {
         id: 'health-safety',
         image: 'images/resource/service-6.jpg',
         title: 'Health & Safety',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Overview of health and safety responsibilities and practices specific to care environments.",
         sections: [
           {
             title: 'Health & Safety in a Care Setting',
@@ -208,6 +115,8 @@ export default {
         id: 'infection-prevention-control',
         image: 'images/resource/service-7.jpg',
         title: 'Infection Prevention & Control',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Essential knowledge on causes, transmission, and prevention of infections in care settings.",
         sections: [
           {
             title: 'Infection Prevention & Control',
@@ -240,10 +149,12 @@ export default {
       {
         id: 'safeguarding-children',
         image: 'images/resource/service-8.jpg',
-        title: 'Safeguarding Children',
+        title: 'Safeguarding Children & Adults',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Learn to recognise, respond to, and report concerns of child abuse and neglect.",
         sections: [
           {
-            title: 'Safeguarding Children',
+            title: 'Safeguarding Children & Adults',
             description: [
               "This vital course equips learners with the knowledge and skills to recognise, respond to, and report concerns of child abuse and neglect.",
               "It covers the key principles of safeguarding, types of abuse, relevant legislation, and the correct procedures for making referrals. It is essential training for anyone who works or volunteers with children and young people."
@@ -271,42 +182,11 @@ export default {
         ],
       },
       {
-        id: 'safeguarding-adults',
-        image: 'images/resource/service-9.jpg',
-        title: 'Safeguarding Adults',
-        sections: [
-          {
-            title: 'Safeguarding Adults at Risk',
-            description: [
-              "Focused on the protection of vulnerable adults, this course explores the principles of empowerment, prevention, proportionality, and partnership.",
-              "You will learn to identify signs of abuse and neglect, understand the Mental Capacity Act in the context of safeguarding, and know the correct process for raising a concern. This training is a core requirement for all staff in adult social care."
-            ]
-          },
-          {
-            title: 'Our Training Supports a Rights-Based Approach to Safety',
-            description: "Safeguarding adults is about balancing protection with an individual's right to make choices. Our course supports you in this delicate balance, providing the skills to identify and report abuse while always promoting the individual's wellbeing, wishes, and autonomy, in line with the Making Safeguarding Personal agenda.",
-          },
-          {
-            title: 'Core Training for All Adult Social Care Staff',
-            description: "This course is mandatory for everyone working with adults at risk, across all settings including domiciliary care, residential care, and community support. We focus on the specific contexts of adult abuse, including modern slavery, financial exploitation, and self-neglect, preparing you for the realities of your role.",
-          },
-          {
-            title: "This course will enable you to:",
-            activities: [
-              "Define an 'adult at risk' and understand the types of abuse",
-              "Apply the six key principles of adult safeguarding",
-              "Make decisions in line with the Mental Capacity Act 2005",
-              "Follow your local multi-agency safeguarding procedures",
-              "Respond appropriately to disclosures and suspicions of abuse",
-              "Accurately record and report safeguarding concerns"
-            ]
-          }
-        ],
-      },
-      {
         id: 'moving-handling',
         image: 'images/resource/service-10.jpg',
         title: 'Moving & Handling',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Practical course for safe moving and handling of people to prevent carer and service user injury.",
         sections: [
           {
             title: 'Safe Moving and Handling of People',
@@ -339,7 +219,9 @@ export default {
       {
         id: 'level-3-food-hygiene',
         image: 'images/resource/service-11.jpg',
-        title: 'Level 3 Food and Hygiene',
+        title: 'Level 3 ~ 4  Food and Hygiene',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "For supervisors and managers. In-depth understanding of food hygiene practices and management.",
         sections: [
           {
             title: 'Level 3 Food and Hygiene (Supervision)',
@@ -370,42 +252,11 @@ export default {
         ],
       },
       {
-        id: 'level-4-food-hygiene',
-        image: 'images/resource/service-12.jpg',
-        title: 'Level 4 Food and Hygiene',
-        sections: [
-          {
-            title: 'Level 4 Food and Hygiene (Management)',
-            description: [
-              "This advanced management course focuses on the strategic implementation of food hygiene standards.",
-              "It is designed for those who need a thorough understanding of how to develop, manage, and evaluate a food safety management system, ensuring full legal compliance and best practice in a care setting."
-            ]
-          },
-          {
-            title: 'Our Management Training Supports Strategic Food Safety',
-            description: "At the management level, food hygiene becomes a strategic responsibility. Our Level 4 course supports you in this role by providing the expertise to design, implement, and audit a comprehensive food safety management system, protecting your organisation's reputation and the health of the vulnerable people you serve.",
-          },
-          {
-            title: 'For Managers with Strategic Food Safety Responsibility',
-            description: "This qualification is aimed at care home managers, catering managers, and quality assurance managers who have ultimate responsibility for food safety. We focus on the strategic skills needed to lead a culture of food safety, manage complex audits, and ensure your organisation's practices are robust, defensible, and exemplary.",
-          },
-          {
-            title: "This advanced course develops expertise in:",
-            activities: [
-              "Designing and documenting a full HACCP-based system",
-              "Auditing and evaluating food safety management systems",
-              "Interpreting complex food safety legislation for management",
-              "Developing and delivering advanced training strategies",
-              "Managing food safety crises and product recalls",
-              "Leading a positive and proactive food safety culture"
-            ]
-          }
-        ],
-      },
-      {
         id: 'level-3-nutrition-health',
         image: 'images/resource/service-13.jpg',
         title: 'Level 3 Nutrition and Health',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Detailed understanding of nutrition's role in health and well-being for care settings.",
         sections: [
           {
             title: 'Level 3 Nutrition and Health',
@@ -439,6 +290,8 @@ export default {
         id: 'safe-medication-administration',
         image: 'images/resource/service-14.jpg',
         title: 'Level 3 Safe Administration of Medication',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "For care workers supporting with medication. Covers legal frameworks and safe practices.",
         sections: [
           {
             title: 'Level 3 Safe Administration of Medication',
@@ -472,6 +325,8 @@ export default {
         id: 'mental-capacity-mental-health',
         image: 'images/resource/service-15.jpg',
         title: 'Mental Capacity Act & Mental Health Awareness',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Covers the Mental Capacity Act legal framework and mental health awareness for carers.",
         sections: [
           {
             title: 'Mental Capacity Act & Mental Health Awareness',
@@ -505,6 +360,8 @@ export default {
         id: 'dementia-awareness',
         image: 'images/resource/service-16.jpg',
         title: 'Dementia Awareness',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Raises awareness of dementia and how to provide person-centred care for those affected.",
         sections: [
           {
             title: 'Dementia Awareness',
@@ -538,6 +395,8 @@ export default {
         id: 'speaking-listening-therapy',
         image: 'images/resource/service-17.jpg',
         title: 'Speaking and Listening Therapy',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "For staff supporting individuals with communication or swallowing difficulties.",
         sections: [
           {
             title: 'Speaking and Listening Therapy Support',
@@ -571,6 +430,8 @@ export default {
         id: 'managing-challenging-behaviours',
         image: 'images/resource/service-18.jpg',
         title: 'Managing Challenging Behaviours',
+        thumbnail: "images/resource/service-11.jpg",
+        summary: "Skills to understand, prevent, and de-escalate challenging behaviour safely and positively.",
         sections: [
           {
             title: 'Positive Approaches to Managing Challenging Behaviours',
@@ -600,6 +461,6 @@ export default {
           }
         ],
       }
-    ]
+    ],
   },
 }
