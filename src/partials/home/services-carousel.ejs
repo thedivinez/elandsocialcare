@@ -1,90 +1,27 @@
 <section class="services-section-two">
-    <div class="auto-container">
-
-        <!-- Sec Title -->
-        <div class="sec-title">
-            <h2>Care Giving & Training Services We offer</h2>
-            <div class="text">A dependable, compassionate presence you can trust.</div>
-        </div>
-
-        <div class="services-carousel owl-carousel owl-theme">
-
-            <!-- Service Block Two -->
-            <div class="service-block-two">
-                <div class="inner-box">
-                    <div class="image">
-                        <a href="elderly-service"><img src="images/resource/service-4.jpg" alt="" /></a>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="elderly-service">Elderly Care Service</a></h3>
-                        <div class="text">
-                            Compassionate in-home care supporting independence and well-being.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block Two -->
-            <div class="service-block-two">
-                <div class="inner-box">
-                    <div class="image">
-                        <a href="support"><img src="images/resource/service-5.jpg" alt="" /></a>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="support">24Hr/7 Days Support</a></h3>
-                        <div class="text">
-                            Round-the-clock care and peace of mind, every day of the year.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block Two -->
-            <div class="service-block-two">
-                <div class="inner-box">
-                    <div class="image">
-                        <a href="respite-care"><img src="images/resource/service-6.jpg" alt="" /></a>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="respite-care">Medical Care</a></h3>
-                        <div class="text">Leverage agile frameworks to pro vide a robust synopsis for high level
-                            overviews approaches.</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block Two -->
-            <div class="service-block-two">
-                <div class="inner-box">
-                    <div class="image">
-                        <a href="personal-care"><img src="images/resource/service-7.jpg" alt="" /></a>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="personal-care">Personal Care</a></h3>
-                        <div class="text">
-                            Professional in-home nursing and clinical support for complex health needs.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block Two -->
-            <div class="service-block-two">
-                <div class="inner-box">
-                    <div class="image">
-                        <a href="personal-care"><img src="images/resource/service-7.jpg" alt="" /></a>
-                    </div>
-                    <div class="lower-content">
-                        <h3><a href="personal-care">Personal Care</a></h3>
-                        <div class="text">
-                            Dignified assistance with daily routines such as bathing, dressing, and grooming to support
-                            independence and well-being.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
+  <div class="auto-container">
+    <!-- Sec Title -->
+    <div class="sec-title">
+      <h2>Our Training Services</h2>
+      <div class="text">
+        A dependable, compassionate presence and training you can trust.
+      </div>
     </div>
+
+    <div class="services-carousel owl-carousel owl-theme">
+      <% site.courses.forEach(function(course) { %>
+      <div class="service-block-two">
+        <div class="inner-box">
+          <div class="image">
+            <img src="<%=course.thumbnail%>" alt="" />
+          </div>
+          <div class="lower-content">
+            <h3><a href="<%=course.url%>"><%=course.title%></a></h3>
+            <div class="text"><%=course.summary%></div>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
 </section>
