@@ -8,7 +8,7 @@ export default {
     courses: [
       {
         id: 'qcf-level-3-hsc',
-        thumbnail: "/images/resource/service-15.jpg",
+        thumbnail: "/images/training/qcf-level-3-hsc.jpg",
         title: 'QCF Level 3 ~ 4 in Health & Social Care',
         summary: "For senior care workers, team leaders, and supervisors to lead teams and manage complex situations.",
         sections: [
@@ -41,36 +41,35 @@ export default {
         ],
       },
       {
-        id: 'level-2-food-safety',
-        image: 'images/resource/service-17.jpg',
-        title: 'Level 2 ~ 4 Food Safety',
-        thumbnail: "/images/training/food-thumb-1.jpg",
-        summary: "Foundational food hygiene for care staff. Covers safety principles and legal compliance.",
+        id: 'speaking-listening-therapy',
+        title: 'Speaking and Listening Therapy',
+        thumbnail: "/images/training/speaking-listening.jpg",
+        summary: "For staff supporting individuals with communication or swallowing difficulties.",
         sections: [
           {
-            title: 'Level 2 Food Safety',
+            title: 'Speaking and Listening Therapy Support',
             description: [
-              "This foundational course is essential for anyone who handles food in a care setting. It covers the essential principles of food hygiene and safety to ensure compliance with legal requirements.",
-              "You will learn about contamination hazards, personal hygiene, cleaning procedures, and safe food storage and preparation. This qualification helps protect the vulnerable individuals in your care from foodborne illnesses."
+              "This course is designed for care staff who support individuals with communication or swallowing difficulties, often working under the guidance of a speech and language therapist.",
+              "It covers the basics of how communication and swallowing work, strategies to support individuals, and safe practices for assisting with eating and drinking. This training is vital for improving the quality of life for those with these specific needs."
             ]
           },
           {
-            title: 'Our Food Safety Training Supports Your Daily Practice',
-            description: "Preparing food safely is a critical part of providing high-quality care. Our Level 2 Food Safety course supports your daily routine by providing clear, practical knowledge that makes safe food handling second nature, ensuring you can confidently protect the health of those you cook for and work alongside.",
+            title: 'Our Training Supports Communication and Safe Swallowing',
+            description: "Difficulty communicating or swallowing can be incredibly isolating and dangerous. This course supports you to make a tangible difference by providing practical techniques to help individuals express themselves and strategies to make mealtimes safer and more enjoyable, thereby reducing risks and enhancing their quality of life.",
           },
           {
-            title: 'Essential Knowledge for Every Kitchen Handler',
-            description: "This course is vital for all care staff involved in handling, preparing, or serving food, from caregivers in a service user's home to kitchen assistants in a residential setting. We focus on the practical application of food safety principles, ensuring you can manage risks effectively in your specific environment.",
+            title: 'For Carers Supporting Communication and Dysphagia',
+            description: "This training is essential for care staff working with individuals who have had a stroke, have dementia, learning disabilities, or other conditions affecting speech and swallowing. We focus on your crucial role in implementing the recommendations of speech and language therapists, providing day-to-day support that is both effective and safe.",
           },
           {
-            title: "You will learn to confidently manage:",
+            title: "You will learn key supportive skills including:",
             activities: [
-              "Food contamination hazards (microbiological, chemical, physical)",
-              "Importance of personal hygiene and handwashing",
-              "Safe food storage, preparation, and cooking temperatures",
-              "Effective cleaning and disinfection of premises and equipment",
-              "Pest control awareness and prevention",
-              "Food safety legislation and your responsibilities"
+              "Using alternative and augmentative communication (AAC) methods",
+              "Implementing strategies to support understanding and expression",
+              "Recognising the signs and risks of dysphagia (swallowing difficulties)",
+              "Assisting with safe eating and drinking techniques",
+              "Preparing modified consistency diets and fluids",
+              "Maintaining oral hygiene for individuals with swallowing problems"
             ]
           }
         ],
@@ -78,7 +77,7 @@ export default {
       {
         id: 'health-safety',
         title: 'Health & Safety',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/health-safety.jpg",
         summary: "Overview of health and safety responsibilities and practices specific to care environments.",
         sections: [
           {
@@ -112,7 +111,7 @@ export default {
       {
         id: 'infection-prevention-control',
         title: 'Infection Prevention & Control',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/infection-prevention.jpg",
         summary: "Essential knowledge on causes, transmission, and prevention of infections in care settings.",
         sections: [
           {
@@ -146,7 +145,7 @@ export default {
       {
         id: 'safeguarding-children',
         title: 'Safeguarding Children & Adults',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/safeguarding.jpg",
         summary: "Learn to recognise, respond to, and report concerns of child abuse and neglect.",
         sections: [
           {
@@ -180,7 +179,7 @@ export default {
       {
         id: 'moving-handling',
         title: 'Moving & Handling',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/moving-handling.jpg",
         summary: "Practical course for safe moving and handling of people to prevent carer and service user injury.",
         sections: [
           {
@@ -248,7 +247,7 @@ export default {
       {
         id: 'level-3-nutrition-health',
         title: 'Level 3 Nutrition and Health',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/level-3-nutrition-health.jpg",
         summary: "Detailed understanding of nutrition's role in health and well-being for care settings.",
         sections: [
           {
@@ -282,7 +281,7 @@ export default {
       {
         id: 'safe-medication-administration',
         title: 'Level 3 Safe Administration of Medication',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/safe-medication.jpg",
         summary: "For care workers supporting with medication. Covers legal frameworks and safe practices.",
         sections: [
           {
@@ -316,7 +315,7 @@ export default {
       {
         id: 'mental-capacity-mental-health',
         title: 'Mental Capacity Act & Mental Health Awareness',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/mental-health.jpg",
         summary: "Covers the Mental Capacity Act legal framework and mental health awareness for carers.",
         sections: [
           {
@@ -350,7 +349,7 @@ export default {
       {
         id: 'dementia-awareness',
         title: 'Dementia Awareness',
-        thumbnail: "/images/resource/service-11.jpg",
+        thumbnail: "/images/training/dementia-awareness.jpg",
         summary: "Raises awareness of dementia and how to provide person-centred care for those affected.",
         sections: [
           {
@@ -381,40 +380,7 @@ export default {
           }
         ],
       },
-      {
-        id: 'speaking-listening-therapy',
-        title: 'Speaking and Listening Therapy',
-        thumbnail: "/images/resource/service-11.jpg",
-        summary: "For staff supporting individuals with communication or swallowing difficulties.",
-        sections: [
-          {
-            title: 'Speaking and Listening Therapy Support',
-            description: [
-              "This course is designed for care staff who support individuals with communication or swallowing difficulties, often working under the guidance of a speech and language therapist.",
-              "It covers the basics of how communication and swallowing work, strategies to support individuals, and safe practices for assisting with eating and drinking. This training is vital for improving the quality of life for those with these specific needs."
-            ]
-          },
-          {
-            title: 'Our Training Supports Communication and Safe Swallowing',
-            description: "Difficulty communicating or swallowing can be incredibly isolating and dangerous. This course supports you to make a tangible difference by providing practical techniques to help individuals express themselves and strategies to make mealtimes safer and more enjoyable, thereby reducing risks and enhancing their quality of life.",
-          },
-          {
-            title: 'For Carers Supporting Communication and Dysphagia',
-            description: "This training is essential for care staff working with individuals who have had a stroke, have dementia, learning disabilities, or other conditions affecting speech and swallowing. We focus on your crucial role in implementing the recommendations of speech and language therapists, providing day-to-day support that is both effective and safe.",
-          },
-          {
-            title: "You will learn key supportive skills including:",
-            activities: [
-              "Using alternative and augmentative communication (AAC) methods",
-              "Implementing strategies to support understanding and expression",
-              "Recognising the signs and risks of dysphagia (swallowing difficulties)",
-              "Assisting with safe eating and drinking techniques",
-              "Preparing modified consistency diets and fluids",
-              "Maintaining oral hygiene for individuals with swallowing problems"
-            ]
-          }
-        ],
-      },
+
       {
         id: 'managing-challenging-behaviours',
         title: 'Managing Challenging Behaviours',
@@ -445,6 +411,40 @@ export default {
               "Conducting person-centred behavioural assessments",
               "Developing and implementing positive behavioural support plans",
               "Maintaining personal safety and managing personal stress"
+            ]
+          }
+        ],
+      },
+      {
+        id: 'food-safety',
+        title: 'Level 2 ~ 4 Food Safety',
+        thumbnail: "/images/training/food-thumb-1.jpg",
+        summary: "Foundational food hygiene for care staff. Covers safety principles and legal compliance.",
+        sections: [
+          {
+            title: 'Level 2 Food Safety',
+            description: [
+              "This foundational course is essential for anyone who handles food in a care setting. It covers the essential principles of food hygiene and safety to ensure compliance with legal requirements.",
+              "You will learn about contamination hazards, personal hygiene, cleaning procedures, and safe food storage and preparation. This qualification helps protect the vulnerable individuals in your care from foodborne illnesses."
+            ]
+          },
+          {
+            title: 'Our Food Safety Training Supports Your Daily Practice',
+            description: "Preparing food safely is a critical part of providing high-quality care. Our Level 2 Food Safety course supports your daily routine by providing clear, practical knowledge that makes safe food handling second nature, ensuring you can confidently protect the health of those you cook for and work alongside.",
+          },
+          {
+            title: 'Essential Knowledge for Every Kitchen Handler',
+            description: "This course is vital for all care staff involved in handling, preparing, or serving food, from caregivers in a service user's home to kitchen assistants in a residential setting. We focus on the practical application of food safety principles, ensuring you can manage risks effectively in your specific environment.",
+          },
+          {
+            title: "You will learn to confidently manage:",
+            activities: [
+              "Food contamination hazards (microbiological, chemical, physical)",
+              "Importance of personal hygiene and handwashing",
+              "Safe food storage, preparation, and cooking temperatures",
+              "Effective cleaning and disinfection of premises and equipment",
+              "Pest control awareness and prevention",
+              "Food safety legislation and your responsibilities"
             ]
           }
         ],
